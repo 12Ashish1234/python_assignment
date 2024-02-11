@@ -9,8 +9,8 @@ class LengthComparison:
         return len(self.value) > len(other.value)
 
 
-str1 = LengthComparison("Hello")
-str2 = LengthComparison("World")
+str1 = LengthComparison("Hello my ")
+str2 = LengthComparison("World!")
 
 if str1 > str2:
     print(f"{str1.value} is longer than {str2.value}")
